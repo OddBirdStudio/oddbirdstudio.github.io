@@ -72,7 +72,7 @@
     </form>
 
 
-    -->
+   
     <form class="email" action="mailer.php" method="post">
     <p>Name:</p>
     <input type="text" name="name" />
@@ -85,12 +85,18 @@
     <input class="send" type="submit" value="Send">
 
     </form>
+     -->
     <div>
+        <h2>Contact Us</h2>
+        <h5>
+        contact@oddbirdstudio.ca
+        </h5>
 
     </div>
 
     </div>
-
+    <div id="filler">
+    </div>
     <a href="https://twitter.com/OddBirdStudio"><img id="social-media-twit" src="img/twitter.png" style="height:7%;" alt="twitter"> </a>
     <a href="https://facebook.com/oddbirdgamedesign"><img id="social-media-faceb" src="img/facebook.png" style="height:7%;" alt="facebook"/></a>
 
