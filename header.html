@@ -1,0 +1,157 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<style>
+nav {
+    width: auto;
+    position: relative;
+    float: left;
+    width:100%;
+    text-decoration:none;
+    background-color: #46A1BE;
+    text-align:center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    border-bottom: .2vw solid #fff;
+    margin-bottom: 10%;
+}
+.text {
+
+}
+img {
+
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  text-align: center;
+}
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+ul li a:hover {
+  color: #333333;
+}
+ul li a:hover:before {
+  width: 100%;
+}
+ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+
+@media screen and (max-width: 768px) {
+  ul li {
+    float: none;
+    display: block;
+  }
+  ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  ul li > a,
+  ul li:last-child > a {
+    border: 0;
+  }
+  ul li a:after {
+    display: none;
+  }
+  ul li a:before {
+    display: none;
+  }
+  img {
+    display: none;
+  }
+}
+#logo {
+    position: fixed;
+    padding: 2vw 5vw 2vw 5vw;
+    z-index: 2;
+    border-radius: 100%;
+}
+
+</style>
+</head>
+<body>
+<header>
+    <a href="#"><img id="logo" src="img/Logo_Circle_Small.jpg" alt="test" style="width:160px;height:160px;"></a>
+    <nav>
+        <ul>
+            <li>
+                    <a href="home.html" class="text">Home</a>
+                    <a href="home.html"><img src="img/home2.png" class="image" style="width:80px; height:80px;"/></a>
+            </li>
+            <li>
+                    <a href="about.html" class="text">About</a>
+                    <a href="about.html"><img src="img/about2.png" class="image" style="width:80px; height:80px;"/></a>
+            </li>
+            <li>
+                    <a href="projects.html" class="text">Projects</a>
+                    <a href="projects.html"><img src="img/projects.png" class="image" style="width:80px; height:80px;"/></a>
+            </li>
+            <li>
+                    <a href="contact.html" class="text">Contact</a>
+                    <a href="contact.html"><img src="img/contact.png" class="image" style="width:80px; height:80px;"/></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

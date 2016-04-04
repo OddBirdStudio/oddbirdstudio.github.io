@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body { 
+	margin-right: 5%;
+	margin-left: 5%;
+	}
+
+
+/* Layout Large Screens (default for older browsers) */
+
+header { 
+	height: 200px;
+	background-size: 70% 135px; 
+	}
+
+nav {
+	width: 90%;
+	position: absolute;
+	background-color: black;
+}
+
+article { padding: 10px 20px 10px 20px; }
+
+
+
+@media screen and (max-width: 990px) {
+	footer { padding-left: 20px; }
+}
+
+

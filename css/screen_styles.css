@@ -1,0 +1,94 @@
+nav {
+    position: relative;
+    float: left;
+    width:100%;
+    text-decoration:none;
+    background-color: #46A1BE;
+    text-align:center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    border-bottom: .2vw solid #fff;
+    margin-bottom: 10%;
+}
+
+nav ul{
+    list-style:none;
+    width:100%;
+    padding: 0;
+    margin: 0 0 0 25%;
+}
+
+nav ul li{
+    float:left;
+    line-height:6%;
+    height:100%;
+    list-style-type:none;
+    margin-left: 2%;
+    overflow:hidden;
+    width: 10%;
+    cursor: pointer;
+}
+nav ul li :hover{
+    color: aliceblue;
+}
+nav ul li a :hover {
+    background-color: black;
+}
+nav ul li a {
+    background-color: #46A1BE;
+    color: white;
+    padding: 2% 2%;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a :hover {
+    background-color: black;
+}
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box;
+}
+input[type=button] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: #337ab7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
