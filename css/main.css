@@ -303,11 +303,21 @@ textarea {
   text-align: left;
 
 }
-#burd {
+#burdPng {
     position: static;
     display: block;
     margin: 0 auto;
     opacity: 0.5;
+    display: none;
+}
+#burdGif {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.8;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
 }
 #royale {
     position: static;
@@ -575,5 +585,10 @@ hr {
                                   #royale {
                                     width:100%;
                                   }
-                                  html. body, div, h1, h2, h3
+                                  #burdPng {
+                                    display: block;
+                                  }
+                                  #burdGif {
+                                    display: none;
+                                  }
 }
