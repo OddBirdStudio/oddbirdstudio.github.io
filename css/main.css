@@ -19,8 +19,10 @@ src: local('FISHfingers'), url('../font/Fishfingers.woff') format('woff');
     position: absolute;
     float: left;
     z-index: 2;
-    top: 20;
+    top: 30;
     left: 50;
+    background-color: #47A0BE;
+    border:  .2vw solid white;
     border-radius: 100%;
 }
 nav {
@@ -34,7 +36,7 @@ nav {
     text-align:center;
     font-size: 1.6em;
     text-transform: uppercase;
-    border-bottom: .2vw solid #fff;
+    border-bottom: .2vw solid white;
     margin-bottom: 10%;
 }
 
@@ -116,7 +118,7 @@ ul li a:before {
 /* HTML TAG CSS START */
 body {
     background-color: lightblue; /* #46A1BE*/
-    font-family: sans-serif 'Arial';
+    font-family: sans-serif 'Helvica';
     color: #6A7071;
 }
 header {
@@ -132,7 +134,7 @@ a {
 a:hover {
   color: #46A1BE ;
 }
-                              
+                         
 h1, h2, h3, h4 {
     font-family: 'FISHfingers';
     padding: 10px 10px 10px 10px;
@@ -303,6 +305,11 @@ textarea {
   text-align: left;
 
 }
+#ARROWHEADS {
+  font-size: 6em !important;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px 10px red;
+}
 #burdPng {
     position: static;
     display: block;
@@ -319,10 +326,11 @@ textarea {
     width: 500px;
     border-radius: 100%;
 }
-#royale {
+.royale {
     position: static;
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 #back {
   background-color: black;
@@ -400,7 +408,7 @@ hr {
 
                 /* SLIDE SHOW START*/
                     #slides {
-                      display: none
+                      display: none;
                     }
 
                     #slides .slidesjs-navigation {
@@ -472,7 +480,7 @@ hr {
                       display: block;
                       width: 13px;
                       padding-top: 13px;
-                     /* background-image: url(img/pagination.png);
+                      /* background-image: url(img/pagination.png);
                       background-position: 0 0; */
                       float: left;
                       overflow: hidden;
@@ -480,28 +488,28 @@ hr {
 
                     .slidesjs-pagination li a.active,
                     .slidesjs-pagination li a:hover.active {
-                      background-position: 0 -13px
+                      background-position: 0 -13px;
                     }
 
                     .slidesjs-pagination li a:hover {
-                      background-position: 0 -26px
+                      background-position: 0 -26px;
                     }
 
                     #slides a:link,
                     #slides a:visited {
-                      color: #333
+                      color: #333;
                     }
 
                     #slides a:hover,
                     #slides a:active {
-                      color: #9e2020
+                      color: #9e2020;
                     }
 
                     .navbar {
-                      overflow: hidden
+                      overflow: hidden;
                     }
                     #slides {
-                      display: none
+                      display: none;
                     }
 
                     .container {
@@ -515,28 +523,43 @@ hr {
                         padding-right: 20px;
                       }
                       .container {
-                        width: auto
+                        width: auto;
                       }
                     }
 
                     /* For smartphones */
                     @media (max-width: 480px) {
                       .container {
-                        width: auto
+                        width: auto;
                       }
+                      .royale {
+                        width: auto;
+                      }
+                      #content-container h5, h6 {
+                                    padding: 10px 10px 10px 10px;
+                                    text-align: left !important;
+                                    display: block;
+                                    margin: 0 auto !important;
+                                  }
                     }
 
                     /* For smaller displays like laptops */
                     @media (min-width: 768px) and (max-width: 979px) {
                       .container {
-                        width: 724px
+                        width: 724px;
+                      }
+                      .royale {
+                        width: 724px !important;
                       }
                     }
 
                     /* For larger displays */
                     @media (min-width: 1200px) {
                       .container {
-                        width: 1170px
+                        width: 1170px;
+                      }
+                      .royale {
+                        width: 1170px;
                       }
                     }
 
@@ -582,8 +605,8 @@ hr {
                                   .desc {
                                     display:none;
                                   }
-                                  #royale {
-                                    width:100%;
+                                  .royale {
+                                    width: 100%;
                                   }
                                   #burdPng {
                                     display: block;
@@ -591,4 +614,5 @@ hr {
                                   #burdGif {
                                     display: none;
                                   }
+                                  
 }

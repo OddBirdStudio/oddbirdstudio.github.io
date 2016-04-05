@@ -1,1 +1,0 @@
-For members have one in front and two on the sides and some behind, so when you click on the one behind it will rotate to bring it in front.

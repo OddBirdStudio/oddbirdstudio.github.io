@@ -50,7 +50,7 @@ function show_error($myError)
 ?>
 <html>
 <head>
-    <title>Odd Bird Studio</title>
+    <title>OddBird Studio</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -90,7 +90,7 @@ function show_error($myError)
 <header>
     <nav>
         <ul>
-            <a href="home.html"><img id="logo" src="img/Logo_Circle_Small.jpg" alt="test" style="width:160px;height:160px;"></a>
+            <a href="home.html"><img id="logo" src="img/Logo.png" alt="test" style="width:160px;height:160px;"></a>
             <li>
                     <a href="home.html" class="text">Home</a>
             </li>
@@ -140,7 +140,7 @@ function show_error($myError)
     	
    	
   <footer>
-        &copy; Odd Bird Studio | 2016
+        &copy; OddBird Studio | 2016
   </footer>
 
 </body>

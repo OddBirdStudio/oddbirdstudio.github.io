@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>OddBird Studio</title>
+    <title>Odd Bird Studio</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -36,7 +36,7 @@
 <header>
     <nav>
         <ul>
-            <a href="home.html"><img id="logo" src="img/Logo.png" alt="test" style="width:160px;height:160px;"></a>
+            <a href="home.html"><img id="logo" src="img/Logo_Circle_Small.jpg" alt="test" style="width:160px;height:160px;"></a>
             <li>
                     <a href="home.html" class="text">Home</a>
             </li>
@@ -47,7 +47,7 @@
                     <a href="projects.html" class="text">Projects</a>
             </li>
             <li>
-                    <a href="contact.php" class="text">Contact</a>
+                    <a href="contact.html" class="text">Contact</a>
             </li>
         </ul>
     </nav>
@@ -72,26 +72,36 @@
     </form>
 
 
-    
-    <form class="email" action="mailer.php" method="post">
-    <p>Name:</p>
-    <input type="text" name="name" />
-    <p>E-mail:</p>
-    <input type="text" name="email" />
-    <p>Subject:</p>
-    <input type="text" name="subject" />
-    <p>Message:</p>
-    <textarea name="message"></textarea></p>
-    <input class="send" type="submit" value="Send">
-
-    </form>-->
-    <div>
-        <h1>Contact Form in Construction</h1>
-        <h2>We can be contacted using:</h2>
-        <h5>contact@oddbirdstudio.ca<h5>
-        <h6>Sorry for Inconvenience</h6>
+    <script language="javascript">var sa_email_id = '71782-de285';var sa_sent_text = 'Thank you for contacting us. We will get back to you soon.';</script>
+    <script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
+    <div id="sa_contactdiv">
+    <form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+    <table>
+    <tr><td>Name:<br><input type="text" name="name" /></td></tr>
+    <tr><td>E-mail Address: <span style="color:#D70000">*</span><br><input type="text" name="email" required="true" /></td></tr>
+    <tr><td>Subject: <span style="color:#D70000">*</span><br><input type="text" name="subject" required="true" /></td></tr>
+    <tr><td>Message: <span style="color:#D70000">*</span><br><textarea name="message" cols="42" rows="9" required="true"></textarea></td></tr>
+    <tr><td><input type="submit" value="Send Message" style="font-weight:bold"></td></tr>
+    </table>
+    </form>
     </div>
-    <div id="filler">
+-->
+
+    <script language="javascript">var sa_email_id = '70731-b4c3a';var sa_sent_text = 'Thank you for contacting us. We will get back to you soon.';</script>
+    <script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
+    <div id="sa_contactdiv">
+    <form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+    <table>
+    <tr><td>Name:<br><input type="text" name="name" /></td></tr>
+    <tr><td>E-mail Address: <span style="color:#D70000">*</span><br><input type="text" name="email" required="true" /></td></tr>
+    <tr><td>Subject: <span style="color:#D70000">*</span><br><input type="text" name="subject" required="true" /></td></tr>
+    <tr><td>Message: <span style="color:#D70000">*</span><br><textarea name="message" cols="42" rows="9" required="true"></textarea></td></tr>
+    <tr><td><input type="submit" value="Send Message" style="font-weight:bold"></td></tr>
+    </table>
+    </form><div style="padding-top:10px"><a href="http://www.smartaddon.com/contact_form.html">Contact Form</a> provided by SmartAddon.com</div></div>
+
+
+    <div>
 
     </div>
 
@@ -101,7 +111,7 @@
     <a href="https://facebook.com/oddbirdgamedesign"><img id="social-media-faceb" src="img/facebook.png" style="height:7%;" alt="facebook"/></a>
 
   <footer>
-        &copy; OddBird Studio | 2016
+        &copy; Odd Bird Studio | 2016
     </footer>
 
 </body>
